@@ -1,0 +1,18 @@
+# Mostrar todos os Usuários
+GET http://localhost:3003/users
+###
+
+# Criação bem-sucedida de usuário
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+  "id": "f003",
+  "name": "Ciclano",
+  "email": "ciclano@email.com",
+  "password": "333441592rR*"
+}
+
+###
+
+
